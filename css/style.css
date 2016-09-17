@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  transition: background-color 0.5s ease;
+  margin: 0;
+}
+
+div {
+  position: relative;
+  background-color: white;
+  min-width: 350px;
+  max-width: 550px;
+  margin: 75px auto;
+  border-radius: 12px;
+}
+
+blockquote {
+  transition: color 0.5s ease;
+  padding-bottom: 100px;
+}
+
+blockquote p {
+  padding-top: 20px;
+  font-size: 160%;
+  margin-bottom:0;
+}
+
+blockquote footer {
+  text-align: right;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+#getQuote {
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  height: 45px;
+  width: 90px;
+  color: white;
+  background-color: black;
+  transition: background-color 0.5s ease;
+  border: none;
+  border-radius: 12px;
+}
+
+#tweeter {
+  position: absolute;
+  bottom: 35px;
+  right: 160px;
+  height: 45px;
+  width: 45px;
+  border-radius: 12px;
+}
+
+#tweeter img {
+  height: 45px;
+  width: 45px;
+  border-radius: 12px;
+}
